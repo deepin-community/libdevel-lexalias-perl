@@ -1,0 +1,24 @@
+Source: libdevel-lexalias-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Niko Tyni <ntyni@debian.org>,
+           Xavier Guimard <x.guimard@free.fr>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               libdevel-caller-perl,
+               perl
+Standards-Version: 4.2.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdevel-lexalias-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdevel-lexalias-perl.git
+Homepage: https://metacpan.org/release/Devel-LexAlias
+
+Package: libdevel-lexalias-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends},
+         libdevel-caller-perl
+Description: Perl module that provides alias lexical variables
+ Devel::LexAlias provides the ability to alias a lexical variable in a
+ subroutines scope to one of your choosing.

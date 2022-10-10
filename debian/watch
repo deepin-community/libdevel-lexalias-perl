@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Devel-LexAlias .*/Devel-LexAlias-([\d\.]+)\.(?:tar\.gz|tar|tgz)

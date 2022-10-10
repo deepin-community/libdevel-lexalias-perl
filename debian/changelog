@@ -1,0 +1,82 @@
+libdevel-lexalias-perl (0.05-2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Xavier Guimard ]
+  * Add upstream/metadata
+  * Declare compliance with policy 4.2.1
+  * Enable autopkgtest
+  * Bump debhelper compat to 10
+  * Set hardening flags
+
+ -- Xavier Guimard <x.guimard@free.fr>  Mon, 27 Aug 2018 14:52:02 +0200
+
+libdevel-lexalias-perl (0.05-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Xavier Guimard ]
+  * Imported Upstream version 0.05
+  * Update debian/copyright (years and format)
+  * Bump Standards-Version to 3.9.4
+  * Bump debhelper compatibility to 9 to get hardening flags
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sun, 10 Mar 2013 08:36:46 +0100
+
+libdevel-lexalias-perl (0.04-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Jonathan Yu ]
+  * Removed Alexis Sukrieh from Uploaders (Closes: #536163)
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+  * Use source format 3.0 (quilt).
+  * Make build-dep on perl unversioned.
+  * Use tiny debian/rules with debhelper 8.
+  * Convert debian/copyright to proposed machine-readable format.
+  * Bump Standards-Version to 3.9.2.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sat, 17 Sep 2011 11:28:38 +0200
+
+libdevel-lexalias-perl (0.04-2) unstable; urgency=low
+
+  [ Damyan Ivanov ]
+  * Fixed debian/watch
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed: XS-
+    Vcs-Svn fields.
+  * debian/rules: delete /usr/share/perl5 only if it exists.
+
+  [ Niko Tyni ]
+  * Point debian/watch to http://search.cpan.org/dist/Devel-LexAlias/
+  * Fix inter-target dependencies for parallel builds.
+  * Don't install the README file, it's just a copy of the POD documentation.
+  * Remove an unused dh_install examples call.
+  * Run the test suite in the 'build' target instead of 'install'.
+  * Upgrade to Standards-Version 3.7.3. No changes needed.
+  * Add myself to Uploaders.
+
+ -- Niko Tyni <ntyni@debian.org>  Mon, 18 Feb 2008 15:30:11 +0200
+
+libdevel-lexalias-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alexis Sukrieh <sukria@debian.org>  Fri, 17 Aug 2007 19:51:12 +0200
